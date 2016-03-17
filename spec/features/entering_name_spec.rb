@@ -1,5 +1,3 @@
-require 'spec_helper'
-
 feature 'Entering names' do
   scenario 'Entering player names' do
     sign_in_and_play

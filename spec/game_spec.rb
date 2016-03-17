@@ -1,5 +1,3 @@
-require 'Game'
-
 describe Game do
   subject(:game) { described_class.new }
   let(:player) { double :player }
@@ -11,7 +9,4 @@ describe Game do
       game.hugs(player)
     end
   end
-
-
-
 end
