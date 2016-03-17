@@ -1,8 +1,7 @@
 <%= @player1_name %> vs. <%= @player2_name %>
 
-<%= @player2_name %>: <%= $player2.hit_points %> /100 HP
+<%= @player2_name %>: <%= @player2_hit_points %> /100 HP
 
 <form action="/attack">
   <input type="submit" value="Hug">
-  <!-- and then calls the hugs method on the player one -->
 </form>

@@ -11,16 +11,11 @@ describe Player do
       expect(player.hit_points).to eq described_class::HIT_POINTS
     end
   end
-  # describe '#hugs' do
-  #   it 'hugs the players' do
-  #     expect(player).to receive(:hugs)
-  #     player.hugs(player2)
-  #   end
-  # end
-  describe '#hugged' do
-    it 'reduces player\'s hit points' do
-      expect(player).to receive(:hugged)
-      player.hugged
+
+  describe '#hugs' do
+    it 'hugs the opponent' do
+      expect(player).to receive(:hugs)
+      player.hugs(player2)
     end
   end
 end
