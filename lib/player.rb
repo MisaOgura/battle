@@ -12,7 +12,7 @@ class Player
 
   def hugs(opponent)
     @turn = !@turn
+    opponent.turn = !opponent.turn
     opponent.hit_points += 10
   end
-
 end

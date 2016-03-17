@@ -6,6 +6,7 @@ class Game
     @player1 = player1
     @player2 = player2
     @players = [player1,player2]
+    @player2.turn = false
   end
 
   def hugger
