@@ -32,9 +32,7 @@ class Battle < Sinatra::Base
     @player2_name = @player2.name
     @player2_hit_points = @player2.hit_points
     @huggee_name = $game.huggee.name
-
     @player1.hugs(@player2)
-
     erb(:attack)
   end
 
