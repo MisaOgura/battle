@@ -1,4 +1,4 @@
-RSpec.feature '2. Attack P2', type: :features do
+feature 'Attack P2' do
 
   before(:each) do
     sign_in_and_play

@@ -1,4 +1,4 @@
-RSpec.feature "0. User Entry", type: :feature do
+feature "User Entry" do
 
   scenario "Users enter names and page displays names" do
     sign_in_and_play
