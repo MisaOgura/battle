@@ -1,6 +1,10 @@
-<%= @player1_name %> vs. <%= @player2_name %>
+<div><%= @player1_name %> vs. <%= @player2_name %></div>
 
-<%= @player2_name %>: <%= @player2_hit_points %> /100 HP
+<div><%= @player1_name %>: <%= @player1_hit_points %>/100 HP</div>
+
+<div><%= @player2_name %>: <%= @player2_hit_points %>/100 HP</div>
+
+<div><%= @hugger_name %>'s turn!</div>
 
 <form action="/attack">
   <input type="submit" value="Hug">
